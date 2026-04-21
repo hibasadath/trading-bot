@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trading Bot</title>
+</head>
+<body>
+
+<h2>Trading Bot UI</h2>
+
+<form method="POST">
+    <input type="number" name="runs" placeholder="Enter runs" required>
+    <button type="submit">Run Bot</button>
+</form>
+
+{% if result %}
+    <h3>Results:</h3>
+    <pre>{{ result }}</pre>
+{% endif %}
+
+</body>
+</html>
